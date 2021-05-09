@@ -5,7 +5,12 @@ body {
     align-items: center;
 }
 
+.scheme-container {
+    margin: 20px;
+}
+
 .canvas {
+    margin: 20px;
     border: 1px solid black;
     width: 40vw;
     height: 40vw;

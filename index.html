@@ -9,7 +9,20 @@
 </head>
 <body>
     <h1>Etch A Sketch</h1>
+    <div id="scheme-container">
+        <label for="color-scheme">Select the coloring scheme:</label>
+        <select name="color-scheme" id="color-scheme">
+            <option value="black">Black</option>
+            <option value="rainbow">Rainbow</option>
+        </select>
+    </div>
+    <button id="reset-canvas">Reset</button>
     <div id="canvas-container"></div>
+    <div id="resize-container">
+        <label for="canvas-size">Enter your canvas size:</label>
+        <input type="number" id="canvas-size" name="canvas-size" min=1 max=100>
+        <button id="resize-canvas">Resize</button>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
